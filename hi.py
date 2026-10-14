@@ -13,7 +13,7 @@ for i in range(days_back + 1):
     current_date = start_date + timedelta(days=i)
     formatted_date = current_date.strftime("%Y-%m-%dT12:00:00")
     
-    commits_for_today = random.randint(0, 100)
+    commits_for_today = random.randint(0, 10)
 
     if commits_for_today > 0:
         for _ in range(commits_for_today):
